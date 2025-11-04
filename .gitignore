@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+myenv/
+\.venv/
+
+# VS Code settings/workspace
+/.vscode/
+
+# Jupyter Notebook checkpoints and outputs
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Mac / Linux files
+.DS_Store
+
+# Windows thumbnail/cache files
+Thumbs.db
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# Logs and database
+*.log
+*.sqlite3
+
+# TensorFlow SavedModel / checkpoints
+checkpoint
+checkpoint/*
+saved_model/
+*.ckpt
+
+# pip environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore local scripts and secrets
+.env
+secrets.json
+
+# Ignore trained artifacts (if generated)
+models/
+*.h5
+*.keras
+
